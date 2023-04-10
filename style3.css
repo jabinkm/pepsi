@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #0065c3;
+    width: 100vw;
+    
+}
+.header{
+    background-color: #0065c3;
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+}
+.head{
+    height: 60px;
+    width: 95%;
+    margin-top: 15px;
+    margin-left: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo:hover{
+    animation:logo 0.3s;
+}
+@keyframes logo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.head li{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.head button{
+    height: 33px;
+    width: 203px;
+    border-radius: 17px;
+    background-color: #0065c3;
+    color: white;
+    border: solid 2px white;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+.head button:hover{
+    color: #0065c3;
+    background-color: white;
+}
+.first{
+    height: 758px;
+    width: 100vw;
+    background-color: black;
+}
+.zspep{
+    height: 758px;
+}
+.new-improved-taste{
+    width: 186px;
+    z-index: 1;
+    position: relative;
+    top: -432px;
+    left: -400px;
+}
+.fright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    position: relative;
+    top: -585px;
+}
+.headline{
+    width: 485px;
+}
+.try-it-to-believe-it{
+    height: 26px;
+    margin-top: 25px;
+}
+.video{
+    display: flex;
+    margin-top: 15px;
+}
+.video figure{
+    margin-left: 10px;
+}
+.video figcaption{
+    text-align: center;
+    font-size: 11px;  
+    color: white;
+    text-transform: uppercase;
+}
+.second{
+    height: 668px;
+    background-image: url(/pepsi/Desktop_Background.png);
+}
+.nitroimg{
+    width: 436px;
+    position: relative;
+    left: 220px;
+    top: 40px;
+}
+.sright{
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -440px;
+}
+.sright h2{
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.nitrotext{
+    width: 424px;
+}
+.sright button{
+    height: 37px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white; 
+}
+.sright button:hover{
+    background-color: white;
+    color: #0e40a1;
+}
+.third{
+    height: 700px;
+    background-color: #265cc5;
+    padding-left: 20px;
+}
+.thumbnail{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+}
+.thumbnail figcaption{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -5px;
+}
+.thumbnail img{
+    width: 404px;
+}
+.title1
+{
+    height: 40px;
+    background-color: #1437bf;
+}
+.pepbw{
+    width: 68%;
+    height: 700px;
+    position: relative;
+    float: right;
+    top: -700px;
+}
+.tagline{
+    width: 35%;
+    position: relative;
+    top: -860px;
+    float: right;
+}
+.fourth{
+    height: 670px;
+    width: 100%;
+    background-image: url(/pepsi/mango-bg.jpg);
+    position: absolute;
+}
+.bg-2-desktop{
+    width: 90%;
+    height: 570px;
+    position: relative;
+    top: 100px;
+}
+.headline3{
+    position: relative;
+    top: -510px;
+    left: 40px;
+    width: 28%;   
+}
+.bg-1-desktop{
+width: 65%;
+height: 100%;
+float: right;
+position: relative;
+top: -574px;
+}
+.twill{
+    height: 30px;
+    position: relative;
+    top: -270px;
+    left: 40px;
+}
+.pepvideo{
+    height: 768px;
+}
+.videos{
+    width: 100vw;
+    position: relative;
+    top: -170px;
+}
+.fifth{
+    height: 750px;
+    position: relative;
+    top: 670px;
+    background-image: url(/pepsi/twil-bg.jpg);
+}
+
+.flexit{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.twil-can{
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 320px;
+}
+.twil-header-dt{
+height: 335px;
+}
+.sixth{
+    height: 528px;
+    position: relative;
+    top: 670px;
+    
+
+}
+.gen-bg{
+    width: 100vw;
+    height: 528px;
+}
+.titles{
+    width: 38%;
+}
+.promotitle{
+    
+    font-size: 50px;
+    color: white;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: -1.5px;
+    line-height: 0.9;  
+}
+.titles p{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.titles button{
+    color: white;
+    background-color: transparent;
+    height: 35px;
+    width: 170px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.titles button:hover{
+    color: #0065c3;
+    background-color: white;
+}
+.cans img{
+    height: 264px;
+}
+.things{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -400px;
+}
+.seventh{
+    height: 315px;
+    background-color: white;
+    position: relative;
+    top: 670px;
+}
+.seventh h1{
+    color: #0065c3;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing:-1.5px;
+}
+.social img{
+    height: 210px;
+}
+.social img:hover{
+    transform: scale(1.15) rotate(5deg);
+    transition: 0.5s;
+    filter: brightness(0.6);
+}
+.social{
+    display: flex;
+    justify-content: center;   
+}
+.sicon img{
+    height: 32px;
+}
+.sicon{
+    position: relative;
+    top: -50px;
+    left: 150px;
+}
+.sicon li{
+    display: inline-block;
+}
+.space{
+    margin-right:  170px;
+}
+.footer{
+    height: 220px;
+    position: relative;
+    top: 670px;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer img{
+    position: relative;
+    top: 55px;
+}
+.list ul{
+    column-count: 3;  
+    width: 780px;
+    list-style-type: none;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif; ;
+}
+.list a:hover{
+    color: #589ad7;
+}
+.list ul{
+    position: relative;
+    top: 70px;
+}
+.last button{
+    background-color: transparent;
+    color: white;
+    height: 37px;
+    width: 240px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.last button:hover{
+    background-color: white;
+    color: #0065c3;
+}
+.socialicon img{
+    height: 32px;
+}
+.socialicon a{
+    margin-left: 10px;
+}
+.last{
+    margin-top: 25px;
+}
+.logof:hover{
+    animation:logof 0.3s  linear;
+}
+@keyframes logof {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
